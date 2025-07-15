@@ -1,53 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-      padding: 20px;
-      text-align: center;
-    }
+#include <stdio.h>
 
-    .card {
-      background-color: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      max-width: 400px;
-      margin: auto;
-    }
+// This C program tells the story of how I started coding using just my phone
+// and eventually learned how to use GitHub for real-world projects.
 
-    img {
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-    }
+int main() {
+    // Introduce the journey
+    printf("My Coding Journey with GitHub\n");
+    printf("-----------------------------\n\n");
 
-    a {
-      color: #4a90e2;
-      text-decoration: none;
-      margin: 0 10px;
-    }
+    // The beginning
+    printf("I started learning to code with just a phone.\n");
+    printf("No laptop, no fancy tools—just determination and curiosity.\n\n");
 
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Profile Picture" />
-    <h1>Ruby Jack</h1>
-    <p>Hello! I'm learning how to build websites. This is my first HTML project. I love creating and sharing ideas with the world.</p>
-    <p>
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
-    </p>
-  </div>
-</body>
-</html>
+    // Learning through practice
+    printf("I explored basic web technologies like HTML and CSS.\n");
+    printf("I used mobile-friendly tools and online editors to write code.\n\n");
+
+    // Finding GitHub
+    printf("Then I discovered GitHub.\n");
+    printf("At first, it was confusing: branches, commits, repos...\n");
+    printf("But I kept learning, step by step.\n\n");
+
+    // What GitHub helped me do
+    printf("GitHub became my coding notebook and portfolio.\n");
+    printf("I created my first repository and uploaded my HTML project.\n");
+    printf("Then I learned how to use GitHub Pages to publish my website!\n\n");
+
+    // The impact
+    printf("Now, GitHub is part of my daily coding routine.\n");
+    printf("I push changes, review code, and share my work with the world.\n\n");
+
+    // Final thoughts
+    printf("My journey proves that you don't need a computer to start.\n");
+    printf("Just a phone, a goal, and the courage to try.\n");
+    printf("This is only the beginning!\n");
+
+    return 0;
+}
